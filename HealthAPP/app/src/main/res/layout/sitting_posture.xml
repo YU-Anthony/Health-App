@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/dailyMetric_toolbar"
+        style="@style/myToolbarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:id="@+id/toolbar_dailyMetric"
+            style="@style/mytitlestyle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sitting Posture" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/posture_background">
+
+            <TextView
+                android:id="@+id/posture_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Your sitting posture"
+                android:textSize="20dp"
+                style="@style/home_time"/>
+            <TextView
+                android:id="@+id/text_posture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:layout_below="@id/posture_title"
+                android:text="WRONG!"
+                android:textSize="30dp"
+                style="@style/posture_status"/>
+
+            <ImageView
+                android:id="@+id/current_posture"
+                android:layout_width="189dp"
+                android:layout_height="189dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_below="@id/text_posture"
+                android:src="@drawable/correct_posture" />
+
+            <TextView
+                android:id="@+id/posture_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/current_posture"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textSize="15dp"
+                style="@style/home_time"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/editView"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/posture_time"-->
+<!--                android:layout_marginTop="50dp"-->
+<!--                android:text="HI "-->
+<!--                android:textColor="@color/purple_500"-->
+<!--                android:textSize="30dp"-->
+<!--                android:layout_centerHorizontal="true" />-->
+
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

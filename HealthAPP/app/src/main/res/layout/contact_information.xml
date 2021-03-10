@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/contact_toolbar"
+        style="@style/myToolbarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:id="@+id/toolbar_contact"
+            style="@style/mytitlestyle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add a contact" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_toolbar"
+        android:layout_marginTop="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/last_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            style="@style/contact_input"/>
+        <EditText
+            android:id="@+id/first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            style="@style/contact_input"/>
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            style="@style/contact_input"/>
+        <EditText
+            android:id="@+id/emaill_adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="E-mail Address"
+            style="@style/contact_input"/>
+
+        <ImageView
+            android:id="@+id/contact_add"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/contact_add"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

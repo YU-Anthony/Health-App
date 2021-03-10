@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/exerciseRecord_toolbar"
+        style="@style/myToolbarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:id="@+id/toolbar_exerciseRecord"
+            style="@style/mytitlestyle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercise Record" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/exerciseRecord_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:layout_below="@id/exerciseRecord_toolbar">
+
+        <TextView
+            android:id="@+id/exerciseRecord_title1"
+            style="@style/sitting_time_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercise details" />
+
+        <ImageView
+            android:id="@+id/exerciseRecord1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_below="@id/exerciseRecord_title1"
+            android:layout_marginTop="37dp"
+            app:srcCompat="@drawable/exercise_details" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/exerciseRecord_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exerciseRecord_layout1"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+        <TextView
+            android:id="@+id/exerciseRecord_title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercise time"
+            style="@style/sitting_time_title"/>
+
+        <ImageView
+            android:id="@+id/exerciseRecord2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/exerciseRecord_title2"
+            android:layout_marginTop="37dp"
+            app:srcCompat="@drawable/exercise_time" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

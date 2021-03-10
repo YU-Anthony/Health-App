@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <!--此处显示标题栏-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/dailyMetric_toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent" >
+        <TextView
+            android:id="@+id/toolbar_dailyMetric"
+            android:text="Daily Metrics"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/mytitlestyle" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!--内容布局最外层使用FrameLayout-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:fillViewport="true">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorPrimary="#FF6100"
+                android:layout_margin="15dp"
+                tools:context=".ui.dailyMetric.DailyMetricFragment">
+                <ImageView
+                    android:id="@+id/sitTime"
+                    android:layout_width="189dp"
+                    android:layout_height="189dp"
+                    android:src="@drawable/time" />
+
+                <ImageView
+                    android:id="@+id/gait"
+                    android:layout_width="189dp"
+                    android:layout_height="190dp"
+                    android:layout_below="@id/sitTime"
+                    android:src="@drawable/gait" />
+
+                <ImageView
+                    android:id="@+id/exercise"
+                    android:layout_width="189dp"
+                    android:layout_height="190dp"
+                    android:layout_below="@id/gait"
+                    android:src="@drawable/exercise" />
+
+                <ImageView
+                    android:id="@+id/wiget"
+                    android:layout_width="189dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/wiget"
+                    android:layout_toRightOf="@id/sitTime"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="10px"/>
+
+                <ImageView
+                    android:id="@+id/walk"
+                    android:layout_width="189dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/walk"
+                    android:layout_below="@id/wiget"
+                    android:layout_toRightOf="@id/gait"
+                    android:layout_marginTop="15px"
+                    android:layout_marginLeft="20px" />
+
+                <ImageView
+                    android:id="@+id/weight"
+                    android:layout_width="189dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/weight"
+                    android:layout_below="@id/walk"
+                    android:layout_toRightOf="@id/exercise"
+                    android:layout_marginTop="15px"
+                    android:layout_marginLeft="20px" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_below="@id/weight"
+                    android:layout_toRightOf="@id/exercise">
+                    <ImageView
+                        android:id="@+id/sitPosture"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:src="@drawable/sit_posture_icon" />
+                    <TextView
+                        android:id="@+id/HM"
+                        android:gravity="center_horizontal"
+                        android:layout_height="25dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="480px"
+                        android:text=""
+                        style="@style/home_time"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>
