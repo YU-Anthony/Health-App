@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">HealthAPP</string>
-    <string name="title_dailyMetric">Daily Metric</string>
-    <string name="title_exercise">Exercise</string>
-    <string name="title_emergencyCall">Emergency Call</string>
-    <string name="title_profile">Profile</string>
-</resources>
