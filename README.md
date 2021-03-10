@@ -2,12 +2,12 @@
 
 ## 项目 Task
 ### 当前任务 - 7个静态页面的制作
-1. Sitting Time
-2. Gait Analysis
-3. Walk 
+1. Sitting Time -[x]
+2. Gait Analysis -[x]
+3. Walk -[x]
 4. Exercise Record
-5. Exercise
-6. Emergency Call
+5. Exercise -[x]
+6. Emergency Call -[x]
 7. Profile
 
 ### 未来任务
