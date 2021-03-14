@@ -1,4 +1,4 @@
-import DataWrapper.BaseStation;
+import DataWrapper.fromBase;
 import org.eclipse.paho.client.mqttv3.*;
 import com.google.gson.Gson;
 
@@ -10,9 +10,6 @@ public class Listener implements MqttCallback {
     private ArrayList<String> topics;
 
     public Listener() throws MqttException {
-        // set up Influx connection
-
-
         // set up MQTT client
         String host = "tcp://127.0.0.1:1883";
         String clientID = "MockReceiver";
@@ -39,9 +36,11 @@ public class Listener implements MqttCallback {
     @Override
     public void messageArrived(String topic, MqttMessage mqttMessage) throws Exception {
         Gson g = new Gson();
-        BaseStation bs = g.fromJson(mqttMessage.toString(), BaseStation.class);
-        System.out.println("Topic: " + topic + " Msg: " + new String(mqttMessage.getPayload()) + " Json: " + bs.health_score);
-        Database.write(bs);
+        fromBase bs = g.fromJson(mqttMessage.toString(), fromBase.class);
+//        System.out.println("Topic: " + topic + " Msg: " + new String(mqttMessage.getPayload()) + " Json: " + Arrays.toString(bs.sensorValues));
+//        Database.write(bs);
+        boolean isSittingRight = MsgAnalysis.isSittingRight(bs.sensorValues);
+
     }
 
     @Override
