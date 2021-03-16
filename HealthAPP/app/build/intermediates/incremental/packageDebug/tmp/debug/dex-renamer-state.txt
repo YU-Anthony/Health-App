@@ -1,0 +1,4 @@
+#Tue Mar 16 19:49:58 CST 2021
+base.0=/Users/anthony/Downloads/HealthAPP/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

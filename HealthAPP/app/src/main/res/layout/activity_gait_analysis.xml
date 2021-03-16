@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/gaitAnalysis_toolbar"
+        style="@style/myToolbarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:id="@+id/toolbar_gaitAnalysis"
+            style="@style/mytitlestyle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gait Analysis" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/gaitAnalysis_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:layout_below="@id/gaitAnalysis_toolbar">
+
+        <TextView
+            android:id="@+id/gaitAnalysis_title1"
+            style="@style/sitting_time_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The gait state" />
+
+        <ImageView
+            android:id="@+id/gaitAnalysis1"
+            android:layout_width="wrap_content"
+            android:layout_height="133dp"
+            android:layout_below="@id/gaitAnalysis_title1"
+            android:layout_marginTop="37dp"
+            app:srcCompat="@drawable/gait_analysis" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        android:layout_below="@id/gaitAnalysis_layout1">
+
+        <TextView
+            android:id="@+id/gaitAnalysis_title2"
+            style="@style/sitting_time_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The gait details" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/foot_strike"
+                    android:layout_width="150dp"
+                    android:layout_height="133dp"
+                    android:layout_marginTop="37dp"
+                    app:srcCompat="@drawable/foot_strike" />
+
+                <ImageView
+                    android:id="@+id/rate_impact"
+                    android:layout_width="150dp"
+                    android:layout_height="133dp"
+                    android:layout_marginTop="37dp"
+                    android:layout_toRightOf="@id/foot_strike"
+                    app:srcCompat="@drawable/rate_on_impact" />
+
+                <ImageView
+                    android:id="@+id/stride_length"
+                    android:layout_width="150dp"
+                    android:layout_height="133dp"
+                    android:layout_below="@id/foot_strike"
+
+                    app:srcCompat="@drawable/stride_length" />
+
+                <ImageView
+                    android:id="@+id/ground_impact"
+                    android:layout_width="150dp"
+                    android:layout_height="133dp"
+                    android:layout_below="@id/rate_impact"
+                    android:layout_toRightOf="@id/stride_length"
+                    app:srcCompat="@drawable/ground_contact" />
+
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/sittingTime_toolbar"
+        style="@style/myToolbarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:id="@+id/toolbar_dailyMetric"
+            style="@style/mytitlestyle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sitting Time" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/sittingTime_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:layout_below="@id/sittingTime_toolbar">
+
+            <TextView
+                android:id="@+id/sittingTime_title1"
+                style="@style/sitting_time_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Overview" />
+
+            <ImageView
+                android:id="@+id/sittingTime1"
+                android:layout_width="wrap_content"
+                android:layout_height="133dp"
+                android:layout_below="@id/sittingTime_title1"
+                android:layout_marginTop="37dp"
+                app:srcCompat="@drawable/sitting_time1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sittingTime_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sittingTime_layout1"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+        <TextView
+            android:id="@+id/sittingTime_title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Real-time monitoring"
+            style="@style/sitting_time_title"/>
+
+        <ImageView
+            android:id="@+id/sittingTime2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sittingTime_title2"
+            android:layout_marginTop="37dp"
+            app:srcCompat="@drawable/sitting_time2" />
+
+        <TextView
+            android:id="@+id/sittingTime_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="You have been sitting for 20 minutes."
+            android:textSize="20dp"
+            style="@style/sitting_time_title"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

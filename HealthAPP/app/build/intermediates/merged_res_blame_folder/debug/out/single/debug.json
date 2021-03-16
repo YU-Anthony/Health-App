@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/layout_activity_sitting_time.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/layout/activity_sitting_time.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_time.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/time.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_exercise_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-hdpi/ic_exercise_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_contact_add.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/contact_add.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_emergency_call_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-mdpi/ic_emergency_call_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_gait.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/gait.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/layout_activity_gait_analysis.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/layout/activity_gait_analysis.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_selector_navigation.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/selector_navigation.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/layout_contact_information.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/layout/contact_information.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/layout_fragment_profile.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/layout_fragment_exercise.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/layout/fragment_exercise.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_contact2.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/contact2.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_emergency_call_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_emergency_call_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_exercise_details.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/exercise_details.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_contact3.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/contact3.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_profile_24dp.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_profile_24dp.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_rate_on_impact.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/rate_on_impact.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_profile_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_profile_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_gait_analysis.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/gait_analysis.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_daily_metric_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-mdpi/ic_daily_metric_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_daily_metric_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-hdpi/ic_daily_metric_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/layout_fragment_emergency_call.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/layout/fragment_emergency_call.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/layout_contact_templte.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/layout/contact_templte.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_exercise_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-mdpi/ic_exercise_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_exercise_time.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/exercise_time.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_emergency_call_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-hdpi/ic_emergency_call_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_exercise_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_exercise_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_exercise_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_exercise_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_exercise_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_exercise_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_profile_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_profile_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_stride_length.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/stride_length.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-v24_left_arrow.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable-v24/left_arrow.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-v24_posture_background.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable-v24/posture_background.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_background.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/background.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_call_button.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/call_button.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_daily_metric_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-ldpi/ic_daily_metric_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/layout_fragment_daily_metric.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/layout/fragment_daily_metric.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_weight.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/weight.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-v24_sitting_time1.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable-v24/sitting_time1.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/navigation_mobile_navigation.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_walk.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/walk.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_profile_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-mdpi/ic_profile_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_exercise_24dp.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_exercise_24dp.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-v24_wrong_posture.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable-v24/wrong_posture.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/menu_bottom_nav_menu.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_daily_metric_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_daily_metric_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_exercise.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/exercise.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_profile_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-ldpi/ic_profile_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_home.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/home.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/layout_sitting_posture.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/layout/sitting_posture.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-v24_correct_posture.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable-v24/correct_posture.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_daily_metric_24dp.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_daily_metric_24dp.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/layout_activity_exercise_record.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/layout/activity_exercise_record.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_emergency_call_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_emergency_call_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_daily_metric_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_daily_metric_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_profile_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_profile_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_wiget.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/wiget.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_add.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/add.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_emergency_call_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-ldpi/ic_emergency_call_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_exercise_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-ldpi/ic_exercise_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-v24_sitting_time2.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable-v24/sitting_time2.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_profile_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-hdpi/ic_profile_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_emergency_call_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_emergency_call_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_daily_metric_24dp.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_daily_metric_24dp.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_ground_contact.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/ground_contact.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-v24_sit_posture_icon.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable-v24/sit_posture_icon.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_foot_strike.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/foot_strike.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable_contact1.png.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/src/main/res/drawable/contact1.png"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_emergency_call_24dp.xml.flat",
+        "source": "/Users/anthony/Downloads/HealthAPP/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_emergency_call_24dp.xml"
+    }
+]
