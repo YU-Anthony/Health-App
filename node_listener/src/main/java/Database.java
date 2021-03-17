@@ -1,30 +1,36 @@
-import java.time.Instant;
-
-import DataWrapper.fromBase;
+import DataWrapper.ToDataBase;
 import com.influxdb.client.*;
-import com.influxdb.client.write.Point;
 import com.influxdb.client.domain.WritePrecision;
+import com.influxdb.client.write.Point;
+import com.influxdb.query.FluxRecord;
+import com.influxdb.query.FluxTable;
+
+import java.time.Instant;
+import java.util.List;
 
 public class Database {
     private static char[] token = "VSOOTKwkRgVrMJFpxSCHGtW8j52yErlaop-yTr9MW_sJgQ2a91v7_bLSysGye-UMund8mDifm--IIOyDTGAMGA==".toCharArray();
     private static String org = "innovation Lab";
-    private static String bucket = "sample";
+    private static String bucket = "ServerDB";
     private static InfluxDBClient db = InfluxDBClientFactory.create("http://localhost:8086", token, org, bucket);;
+//    private static InfluxDBClient db = InfluxDBClientFactory.create();
 
-    public static void write(fromBase bs){
+    public static void write(ToDataBase tdb) {
         try (WriteApi writeApi = db.getWriteApi()) {
+            System.out.println(tdb.healthScore);
+            Point point = Point.measurement("cusion")
+                    .addField("health_score", tdb.healthScore)
+                    .addField("concentrated_pres", tdb.isAPBalanced)
+                    .addField("unbalanced_pres", tdb.isLRBalanced)
+                    .addTag("sit_status", String.valueOf(tdb.isSitting))
+                    .addTag("sedentary", String.valueOf(tdb.sedentary))
+                    .time(Instant.now().getEpochSecond(), WritePrecision.S);
 
-//            Point point = Point.measurement("bs")
-//                    .addField("health_score", bs.health_score)
-//                    .addField("Concentrated_pres", bs.concentrated_pressure)
-//                    .addField("unbalanced_pres", bs.unbalanced_pressure)
-//                    .addTag("sit_status", String.valueOf(bs.sit_status))
-//                    .addTag("sedentary", String.valueOf(bs.sedentary))
-//                    .time(Instant.now().toEpochMilli(), WritePrecision.MS);
-
-//            writeApi.writePoint(point);
-
+            writeApi.writePoint(point);
         }
     }
 
+    public static void closeDB(){
+        db.close();
+    }
 }

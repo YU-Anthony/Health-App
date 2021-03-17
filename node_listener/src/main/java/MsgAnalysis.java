@@ -1,3 +1,7 @@
+import DataWrapper.FromBase;
+import DataWrapper.FromBaseOriginal;
+import DataWrapper.ToDataBase;
+
 import java.util.Arrays;
 
 public class MsgAnalysis {
@@ -25,13 +29,30 @@ public class MsgAnalysis {
         return APT > mse;
     }
 
-    // check whether the user is sitting right
-    static boolean isSittingRight(int[] sensorValues) {
+    // check whether the user is sitting right, return a boolean array with
+    // [isLR, isAP, isRight]
+    static boolean[] isSittingRight(int[] sensorValues) {
+        boolean[] ans = new boolean[3];
         double sum = Arrays.stream(sensorValues).sum();
-        return isAPBalanced(sensorValues, sum) && isLRBalanced(sensorValues, sum);
+        ans[0] = isAPBalanced(sensorValues, sum);
+        ans[1] = isLRBalanced(sensorValues, sum);
+        ans[2] = ans[0] && ans[1];
+        return ans;
     }
 
     static double se(int a, int b) {
         return Math.pow((a-b), 2);
+    }
+
+    // get health score of a client
+//    static ToDataBase getHealthScore(FromBase fb) {
+//        int[] sensorValues = fb.sensorValues;
+//        boolean[] sittingStatus = isSittingRight(sensorValues);
+//    }
+
+    static  ToDataBase analyseInsert(FromBaseOriginal fb) {
+        boolean isSittingRight = !(fb.concentrated_pressure || fb.unbalanced_pressure);
+        return new ToDataBase(fb.health_score, fb.sit_status, fb.sedentary, !fb.concentrated_pressure, !fb.unbalanced_pressure,
+                fb.slow_rising, fb.lacking_shift, isSittingRight);
     }
 }

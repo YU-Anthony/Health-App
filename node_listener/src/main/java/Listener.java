@@ -1,7 +1,10 @@
-import DataWrapper.fromBase;
+import DataWrapper.FromBase;
+import DataWrapper.FromBaseOriginal;
+import DataWrapper.ToDataBase;
 import org.eclipse.paho.client.mqttv3.*;
 import com.google.gson.Gson;
 
+import javax.xml.crypto.Data;
 import java.util.*;
 
 
@@ -36,10 +39,13 @@ public class Listener implements MqttCallback {
     @Override
     public void messageArrived(String topic, MqttMessage mqttMessage) throws Exception {
         Gson g = new Gson();
-        fromBase bs = g.fromJson(mqttMessage.toString(), fromBase.class);
+//        FromBase bs = g.fromJson(mqttMessage.toString(), FromBase.class);
 //        System.out.println("Topic: " + topic + " Msg: " + new String(mqttMessage.getPayload()) + " Json: " + Arrays.toString(bs.sensorValues));
 //        Database.write(bs);
-        boolean isSittingRight = MsgAnalysis.isSittingRight(bs.sensorValues);
+        FromBaseOriginal bso = g.fromJson(mqttMessage.toString(), FromBaseOriginal.class);
+//        System.out.println("Msg: " + new String(mqttMessage.getPayload()));
+        ToDataBase tb = MsgAnalysis.analyseInsert(bso);
+        Database.write(tb);
 
     }
 

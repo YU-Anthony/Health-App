@@ -1,6 +1,6 @@
 package DataWrapper;
 
-public class BaseStation {
+public class FromBaseOriginal {
     public int health_score;
     public boolean sit_status;
     public boolean sedentary;
@@ -9,8 +9,8 @@ public class BaseStation {
     public boolean lacking_shift;
     public boolean slow_rising;
 
-    public BaseStation(int health_score, boolean sit_status, boolean sedentary, boolean concentrated_pressure,
-                       boolean unbalanced_pressure, boolean lacking_shift, boolean slow_rising) {
+    public FromBaseOriginal(int health_score, boolean sit_status, boolean sedentary, boolean concentrated_pressure,
+                            boolean unbalanced_pressure, boolean lacking_shift, boolean slow_rising) {
         this.health_score = health_score;
         this.sit_status = sit_status;
         this.sedentary = sedentary;
@@ -19,5 +19,4 @@ public class BaseStation {
         this.lacking_shift = lacking_shift;
         this.slow_rising = slow_rising;
     }
-
 }
