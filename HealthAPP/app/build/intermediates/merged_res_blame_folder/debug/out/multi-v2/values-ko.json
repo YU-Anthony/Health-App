@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
+            "outputFile": "/Users/anthony/Downloads/app/HealthAPP/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "/Users/anthony/.gradle/caches/transforms-2/files-2.1/ee833a536128e3b427c4b16b1ddd3d53/navigation-ui-2.2.2/res/values-ko/values-ko.xml",

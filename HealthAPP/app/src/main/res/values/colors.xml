@@ -11,4 +11,5 @@
     <color name="title_text_color">#063F36</color>
     <color name="background">#F4F9FF</color>
     <color name="toolbar_color">#D5EDF1</color>
+    <color name="gray">#D3D3D3</color>
 </resources>

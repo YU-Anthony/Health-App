@@ -61,8 +61,14 @@
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
 
+    <style name="profile_title" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#063f36</item>
+        <item name="android:textSize">10pt</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
     <style name="contact_input" parent="@android:style/Widget.TextView">
-        <item name="android:textColorHint">@color/purple_500</item>
+        <item name="android:textColorHint">@color/gray</item>
         <item name="android:lines">1</item>
         <item name="android:gravity">start|top</item>
         <item name="android:ems">10</item>

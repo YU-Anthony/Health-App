@@ -27,7 +27,7 @@ public class HealthAppProvider extends ContentProvider {
 
     @Override
     public boolean onCreate() {
-        dbHelper = new DBHelper(this.getContext(),"data13",null,1);
+        dbHelper = new DBHelper(this.getContext(),"data14",null,1);
         return true;
     }
 

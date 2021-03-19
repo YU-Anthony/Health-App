@@ -36,13 +36,7 @@ public class ExerciseFragment extends Fragment{
         exerciseViewModel =
                 new ViewModelProvider(this).get(ExerciseViewModel.class);
         View root = inflater.inflate(R.layout.fragment_exercise, container, false);
-        final TextView textView = root.findViewById(R.id.text_exercise);
-        exerciseViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+
 
         //引用 toolbar
         Toolbar toolbar = (Toolbar)getActivity().findViewById(R.id.exercise_toolbar);

@@ -6,162 +6,162 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml
+8-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml
+9-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml
 10
 11    <!-- 授权访问网络 -->
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:6:5-66
-12-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:6:22-64
+12-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:6:5-66
+12-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:6:22-64
 13    <uses-permission android:name="android.permission.CALL_PHONE" />
-13-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:8:5-85
-13-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:8:22-66
+13-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:8:5-85
+13-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:8:22-66
 14    <uses-permission android:name="android.permission.READ_CALL_LOG" />
-14-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:9:5-72
-14-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:9:22-69
+14-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:9:5-72
+14-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:9:22-69
 15    <uses-permission android:name="android.permission.READ_CONTACTS" />
-15-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:10:5-72
-15-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:10:22-69
+15-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:10:5-72
+15-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:10:22-69
 16
 17    <application
-17-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:12:5-82:19
+17-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:12:5-82:19
 18        android:allowBackup="true"
-18-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:14:9-35
+18-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:14:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.1.0] /Users/anthony/.gradle/caches/transforms-2/files-2.1/ae31cc97a3f9383e0242537d69427d3a/core-1.1.0/AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
-21-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:15:9-43
+21-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:15:9-43
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:16:9-54
+22-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:16:9-54
 23        android:supportsRtl="true"
-23-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:17:9-35
+23-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:17:9-35
 24        android:testOnly="true"
 25        android:theme="@style/Theme.HealthAPP"
-25-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:18:9-47
+25-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:18:9-47
 26        android:usesCleartextTraffic="true" >
-26-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:13:9-44
+26-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:13:9-44
 27        <uses-library
-27-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:20:9-87
+27-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:20:9-87
 28            android:name="org.apache.http.legacy"
-28-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:20:23-60
+28-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:20:23-60
 29            android:required="false" />
-29-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:20:61-85
+29-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:20:61-85
 30
 31        <activity
-31-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:22:9-30:20
+31-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:22:9-30:20
 32            android:name="com.example.healthapp.MainActivity"
-32-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:23:13-41
+32-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:23:13-41
 33            android:label="@string/app_name" >
-33-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:24:13-45
+33-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:24:13-45
 34            <intent-filter>
-34-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:25:13-29:29
+34-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:25:13-29:29
 35                <action android:name="android.intent.action.MAIN" />
-35-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:26:17-69
-35-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:26:25-66
+35-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:26:17-69
+35-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:26:25-66
 36
 37                <category android:name="android.intent.category.LAUNCHER" />
-37-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:28:17-77
-37-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:28:27-74
+37-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:28:17-77
+37-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:28:27-74
 38            </intent-filter>
 39        </activity>
 40        <activity
-40-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:32:9-40:20
+40-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:32:9-40:20
 41            android:name="com.example.healthapp.SittingPostureActivity"
-41-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:33:13-51
+41-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:33:13-51
 42            android:label="SittingPostureActivity" >
-42-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:34:13-51
+42-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:34:13-51
 43            <intent-filter>
-43-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:35:13-39:29
+43-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:35:13-39:29
 44                <action android:name="getSittingPostureActivity" />
-44-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:36:17-67
-44-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:36:25-65
+44-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:36:17-67
+44-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:36:25-65
 45
 46                <category android:name="android.intent.category.DEFAULT" />
-46-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:37:17-75
-46-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:37:27-73
+46-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:37:17-75
+46-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:37:27-73
 47            </intent-filter>
 48        </activity>
 49        <activity
-49-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:42:9-49:20
+49-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:42:9-49:20
 50            android:name="com.example.healthapp.SittingTimeActivity"
-50-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:43:13-48
+50-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:43:13-48
 51            android:label="SittingTimeActivity" >
-51-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:44:13-48
+51-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:44:13-48
 52            <intent-filter>
-52-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:45:13-48:29
+52-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:45:13-48:29
 53                <action android:name="getSittingTimeActivity" />
-53-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:46:17-64
-53-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:46:25-62
+53-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:46:17-64
+53-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:46:25-62
 54
 55                <category android:name="android.intent.category.DEFAULT" />
-55-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:37:17-75
-55-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:37:27-73
+55-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:37:17-75
+55-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:37:27-73
 56            </intent-filter>
 57        </activity>
 58        <activity
-58-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:51:9-58:20
+58-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:51:9-58:20
 59            android:name="com.example.healthapp.GaitAnalysisActivity"
-59-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:52:13-49
+59-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:52:13-49
 60            android:label="GaitAnalysisActivity" >
-60-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:53:13-49
+60-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:53:13-49
 61            <intent-filter>
-61-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:54:13-57:29
+61-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:54:13-57:29
 62                <action android:name="getGaitAnalysisActivity" />
-62-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:55:17-65
-62-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:55:25-63
+62-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:55:17-65
+62-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:55:25-63
 63
 64                <category android:name="android.intent.category.DEFAULT" />
-64-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:37:17-75
-64-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:37:27-73
+64-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:37:17-75
+64-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:37:27-73
 65            </intent-filter>
 66        </activity>
 67        <activity
-67-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:60:9-67:20
+67-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:60:9-67:20
 68            android:name="com.example.healthapp.ExerciseRecordActivity"
-68-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:61:13-51
+68-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:61:13-51
 69            android:label="ExerciseRecordActivity" >
-69-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:62:13-51
+69-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:62:13-51
 70            <intent-filter>
-70-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:63:13-66:29
+70-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:63:13-66:29
 71                <action android:name="getExerciseRecordActivity" />
-71-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:64:17-67
-71-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:64:25-65
+71-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:64:17-67
+71-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:64:25-65
 72
 73                <category android:name="android.intent.category.DEFAULT" />
-73-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:37:17-75
-73-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:37:27-73
+73-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:37:17-75
+73-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:37:27-73
 74            </intent-filter>
 75        </activity>
 76        <activity
-76-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:69:9-76:20
+76-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:69:9-76:20
 77            android:name="com.example.healthapp.ContactInfoActivity"
-77-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:70:13-48
+77-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:70:13-48
 78            android:label="ContactInfoActivity" >
-78-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:71:13-48
+78-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:71:13-48
 79            <intent-filter>
-79-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:72:13-75:29
+79-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:72:13-75:29
 80                <action android:name="getContactInfoActivity" />
-80-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:73:17-64
-80-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:73:25-62
+80-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:73:17-64
+80-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:73:25-62
 81
 82                <category android:name="android.intent.category.DEFAULT" />
-82-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:37:17-75
-82-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:37:27-73
+82-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:37:17-75
+82-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:37:27-73
 83            </intent-filter>
 84        </activity>
 85
 86        <provider
-86-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:77:9-81:43
+86-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:77:9-81:43
 87            android:name="com.example.healthapp.HealthAppProvider"
-87-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:78:13-46
+87-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:78:13-46
 88            android:authorities="com.example.healthapp"
-88-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:79:13-56
+88-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:79:13-56
 89            android:exported="true"
-89-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:80:13-36
+89-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:80:13-36
 90            android:multiprocess="true" />
-90-->/Users/anthony/Downloads/HealthAPP/app/src/main/AndroidManifest.xml:81:13-40
+90-->/Users/anthony/Downloads/app/HealthAPP/app/src/main/AndroidManifest.xml:81:13-40
 91    </application>
 92
 93</manifest>

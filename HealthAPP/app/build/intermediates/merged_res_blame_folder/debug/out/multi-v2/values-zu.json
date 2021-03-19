@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/anthony/Downloads/HealthAPP/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml",
+            "outputFile": "/Users/anthony/Downloads/app/HealthAPP/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml",
             "map": [
                 {
                     "source": "/Users/anthony/.gradle/caches/transforms-2/files-2.1/ae31cc97a3f9383e0242537d69427d3a/core-1.1.0/res/values-zu/values-zu.xml",

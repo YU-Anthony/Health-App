@@ -841,6 +841,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -1383,6 +1384,8 @@ drawable contact2
 drawable contact3
 drawable contact_add
 drawable correct_posture
+drawable dance
+drawable data
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1392,6 +1395,8 @@ drawable design_snackbar_background
 drawable exercise
 drawable exercise_details
 drawable exercise_time
+drawable eyes
+drawable fit
 drawable foot_strike
 drawable gait
 drawable gait_analysis
@@ -1424,6 +1429,7 @@ drawable mtrl_ic_error
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable muscle
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -1438,12 +1444,15 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable posture_background
+drawable profile_bk
+drawable profile_photo
 drawable rate_on_impact
 drawable selector_navigation
 drawable sit_posture_icon
 drawable sitting_time1
 drawable sitting_time2
 drawable stride_length
+drawable taichi
 drawable test_custom_background
 drawable time
 drawable tooltip_frame_dark
@@ -1553,6 +1562,8 @@ id container
 id content
 id contentPanel
 id coordinator
+id course1
+id course2
 id current_posture
 id custom
 id customPanel
@@ -1589,10 +1600,17 @@ id exerciseRecord_layout2
 id exerciseRecord_title1
 id exerciseRecord_title2
 id exerciseRecord_toolbar
+id exercise_layout1
+id exercise_layout2
+id exercise_layout3
+id exercise_title1
+id exercise_title2
+id exercise_title3
 id exercise_toolbar
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id eye
 id fade
 id fill
 id fill_horizontal
@@ -1600,6 +1618,7 @@ id fill_vertical
 id filled
 id filter_chip
 id first_name
+id fit
 id fitToContents
 id fixed
 id foot_strike
@@ -1611,7 +1630,6 @@ id gaitAnalysis_layout1
 id gaitAnalysis_title1
 id gaitAnalysis_title2
 id gaitAnalysis_toolbar
-id get_sitPosture
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1669,6 +1687,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id muscle
 id nav_controller_view_tag
 id nav_host_fragment
 id nav_host_fragment_container
@@ -1701,6 +1720,11 @@ id phone_number
 id pin
 id posture_time
 id posture_title
+id profile_layout1
+id profile_layout2
+id profile_photo
+id profile_title1
+id profile_title2
 id progress_circular
 id progress_horizontal
 id radio
@@ -1764,6 +1788,7 @@ id src_in
 id src_over
 id standard
 id start
+id statistics
 id stretch
 id stride_length
 id submenuarrow
@@ -1785,11 +1810,9 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id text_exercise
 id text_input_end_icon
 id text_input_start_icon
 id text_posture
-id text_profile
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -2733,6 +2756,7 @@ style myToolbarStyle
 style mytitlestyle
 style mytitlestyle2
 style posture_status
+style profile_title
 style sitting_time_title
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
