@@ -3,8 +3,8 @@ com/example/healthapp/ui/dailyMetric/DailyMetricViewModel.java
 com/example/healthapp/ui/emergencyCall/EmergencyCallFragment.java
  com.example.healthapp.ui.emergencyCall.EmergencyCallFragment
  com.example.healthapp.ui.emergencyCall.EmergencyCallFragment$1
-com/example/healthapp/ui/profile/ProfileFragment.java
- com.example.healthapp.ui.profile.ProfileFragment
+com/example/healthapp/HealthAppProvider.java
+ com.example.healthapp.HealthAppProvider
 com/example/healthapp/ExerciseRecordActivity.java
  com.example.healthapp.ExerciseRecordActivity
  com.example.healthapp.ExerciseRecordActivity$1
@@ -17,8 +17,8 @@ com/example/healthapp/ContactInfoActivity.java
  com.example.healthapp.ContactInfoActivity
  com.example.healthapp.ContactInfoActivity$1
  com.example.healthapp.ContactInfoActivity$2
-com/example/healthapp/ui/exercise/ExerciseViewModel.java
- com.example.healthapp.ui.exercise.ExerciseViewModel
+com/example/healthapp/ui/profile/ProfileFragment.java
+ com.example.healthapp.ui.profile.ProfileFragment
 com/example/healthapp/ui/dailyMetric/DailyMetricFragment.java
  com.example.healthapp.ui.dailyMetric.DailyMetricFragment
 com/example/healthapp/BuildConfig.java
@@ -41,5 +41,5 @@ com/example/healthapp/SittingPostureActivity.java
  com.example.healthapp.SittingPostureActivity$postureThread
 com/example/healthapp/DBHelper.java
  com.example.healthapp.DBHelper
-com/example/healthapp/HealthAppProvider.java
- com.example.healthapp.HealthAppProvider
+com/example/healthapp/ui/exercise/ExerciseViewModel.java
+ com.example.healthapp.ui.exercise.ExerciseViewModel

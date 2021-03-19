@@ -21,13 +21,15 @@ public class HealthAppProvider extends ContentProvider {
         uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
         uriMatcher.addURI(HealthAppContract.AUTHORITY, HealthAppContract.CONTACTPERSON_TABLE, 1);
         uriMatcher.addURI(HealthAppContract.AUTHORITY, HealthAppContract.CONTACTPERSON_TABLE + "/#", 2);
+        uriMatcher.addURI(HealthAppContract.AUTHORITY, HealthAppContract.SITTINGPOSTURE_TABLE, 3);
+        uriMatcher.addURI(HealthAppContract.AUTHORITY, HealthAppContract.SITTINGPOSTURE_TABLE + "/#", 4);
 
     }
 
 
     @Override
     public boolean onCreate() {
-        dbHelper = new DBHelper(this.getContext(),"data14",null,1);
+        dbHelper = new DBHelper(this.getContext(),"data13",null,1);
         return true;
     }
 
@@ -42,6 +44,10 @@ public class HealthAppProvider extends ContentProvider {
                 selection = HealthAppContract.CONTACTPERSON_ID + " = " + uri.getLastPathSegment();
             case 1:
                 return db.query(HealthAppContract.CONTACTPERSON_TABLE, projection, selection, selectionArgs, null, null, sortOrder);
+            case 4:
+                selection = HealthAppContract.SITTINGPOSTURE_ID + " = " + uri.getLastPathSegment();
+            case 3:
+                return db.query(HealthAppContract.SITTINGPOSTURE_TABLE, projection, selection, selectionArgs, null, null, sortOrder);
             default:
                 return null;
         }
@@ -56,6 +62,9 @@ public class HealthAppProvider extends ContentProvider {
         switch(uriMatcher.match(uri)) {
             case 1:
                 tableName = HealthAppContract.CONTACTPERSON_TABLE;
+                break;
+            case 3:
+                tableName = HealthAppContract.SITTINGPOSTURE_TABLE;
                 break;
             default:
                 throw new IllegalStateException("Unexpected value: " + uriMatcher.match(uri));
@@ -81,6 +90,12 @@ public class HealthAppProvider extends ContentProvider {
                 tableName = HealthAppContract.CONTACTPERSON_TABLE;
                 count = db.delete(tableName, selection, selectionArgs);
                 break;
+            case 4:
+                selection = HealthAppContract.SITTINGPOSTURE_ID + " = " + uri.getLastPathSegment();
+            case 3:
+                tableName = HealthAppContract.SITTINGPOSTURE_TABLE;
+                count = db.delete(tableName, selection, selectionArgs);
+                break;
             default:
                 return 0;
         }
@@ -103,6 +118,13 @@ public class HealthAppProvider extends ContentProvider {
                 selection = HealthAppContract.CONTACTPERSON_ID + " = " + uri.getLastPathSegment();
             case 1:
                 tableName = HealthAppContract.CONTACTPERSON_TABLE;
+                count = db.update(tableName, contentValues, selection, selectionArgs);
+                break;
+            case 4:
+                // gave /# URI so they want a specific row
+                selection = HealthAppContract.SITTINGPOSTURE_ID + " = " + uri.getLastPathSegment();
+            case 3:
+                tableName = HealthAppContract.SITTINGPOSTURE_TABLE;
                 count = db.update(tableName, contentValues, selection, selectionArgs);
                 break;
             default:
